@@ -9,7 +9,7 @@ from watson_developer_cloud.text_to_speech_v1 import TextToSpeechV1
 
 def text2speech(fileName='', message=''):
     if fileName == '' :
-        fileName = '/Users/wzy/Documents/workspace/FirstFlask/tmp/output.wav'
+        fileName = '/home/vcap/app/app/static/tmp/output.wav'
         print(fileName)
         
     if message == '' :
@@ -19,7 +19,6 @@ def text2speech(fileName='', message=''):
         remove(fileName)
     except :
         print('there is no file exist')
-    
     # user watson api to transfer the text to speech
     text_to_speech = TextToSpeechV1(
         username=config.bluemix_username,
