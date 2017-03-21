@@ -1,13 +1,2 @@
-# Python Flask Hello World Sample
-
-This application demonstrates a simple, reusable Python web application based on the [Flask microframework](http://flask.pocoo.org/).
-
-## Run the app locally
-
-1. [Install Python][]
-+ cd into this project's root directory
-+ Run `pip install -r requirements.txt` to install the app's dependencies
-+ Run `python welcome.py`
-+ Access the running app in a browser at <http://localhost:5000>
-
-[Install Python]: https://www.python.org/downloads/
+这是Watson+Python的认知之旅的第一个Demo在Bluemix上发布的Project。文章的链接如下：http://www.jianshu.com/p/8c553c070d2e Demo下载后，请将config.py中bluemix_username和bluemix_password替换成自己创建的service中的username和password。
+Bluemix上的测试link https://wzyfirstdemo.mybluemix.net/text2speech
